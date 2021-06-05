@@ -1,0 +1,16 @@
+﻿@page
+@model IEnumerable<Caso03.Models.Categorias>
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Categorias</h1>
+</div>
+<ul class="list-group">
+@foreach( var cat in Model)
+{
+    <li  class="list-group-item">
+        @cat.id - @cat.nombre
+    </li>
+}
+</ul>
+<button type="button" class="btn btn-primary">Nuevo</button>

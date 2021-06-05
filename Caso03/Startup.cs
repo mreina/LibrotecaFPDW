@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Caso03.Data;
 using Microsoft.EntityFrameworkCore;
+
 namespace Caso03
 {
     public class Startup

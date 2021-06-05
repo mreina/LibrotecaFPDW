@@ -15,6 +15,9 @@ namespace Caso03.Data
         {
                //Constructor vacio
         }
+        //Tablas
+        //Get: Leida
+        //Set: Editada
         public DbSet<Categorias> Categorias {get; set;}
     }
 }
